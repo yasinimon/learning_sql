@@ -66,3 +66,19 @@ ALTER COLUMN nationality TYPE CHAR(3);
 ALTER TABLE examples
 ALTER COLUMN last_name TYPE VARCHAR(50),
 ALTER COLUMN email TYPE VARCHAR(80);
+
+
+
+--creating a practice table to delete 
+CREATE TABLE practice(
+		id SERIAL PRIMARY KEY,
+		product_name VARCHAR(15),
+		product_price NUMERIC(4,2)
+);
+
+SELECT * FROM practice
+
+DROP TABLE practice;
+
+
+
